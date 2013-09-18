@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)TheButton:(id)sender {
+
+    _DisplayLabel.text = @"Hi Austin";
+    
+    
+}
 @end

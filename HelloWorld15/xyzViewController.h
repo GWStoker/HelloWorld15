@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface xyzViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *DisplayLabel;
+- (IBAction)TheButton:(id)sender;
 
 @end
