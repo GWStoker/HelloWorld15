@@ -33,11 +33,19 @@
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" image="IMG_0731" highlightedImage="IMG_0731" translatesAutoresizingMaskIntoConstraints="NO" id="1fX-jt-Uhb">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="1cu-ds-Wj7"/>
+                                    <constraint firstAttribute="width" constant="240" id="lIm-pC-Z67"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="1fX-jt-Uhb" secondAttribute="bottom" constant="66" id="7QG-Al-73B"/>
                             <constraint firstItem="v65-19-rcn" firstAttribute="top" secondItem="3" secondAttribute="top" constant="50" id="7f3-aW-9wC"/>
                             <constraint firstItem="FEG-cR-yCs" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="SdD-tF-gCY"/>
+                            <constraint firstItem="1fX-jt-Uhb" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="abc-Tj-imd"/>
                             <constraint firstItem="v65-19-rcn" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="86" id="dHv-oC-9Ry"/>
                             <constraint firstItem="FEG-cR-yCs" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="wsz-2I-k6d"/>
                         </constraints>
@@ -50,6 +58,9 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_0731" width="16" height="16"/>
+    </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
